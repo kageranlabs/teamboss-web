@@ -1,4 +1,7 @@
-name = "teambossorg-site"
+name = "teamboss-web"
 compatibility_date = "2026-08-31"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".vercel/output/static"
+main = ".vercel/output/static/_worker.js"
+
+[assets]
+directory = ".vercel/output/static"
